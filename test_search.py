@@ -1,7 +1,6 @@
 import unittest
 import csv
 import search
-import requests
 
 
 class SearchTests(unittest.TestCase):
