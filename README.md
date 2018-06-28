@@ -8,6 +8,8 @@ To start the server just run "python main.py" and your server should be up and r
 
 To question the server just curl to it, for example: curl -d "Face" -X POST http://localhost:8080/autocomplete
 
+I only had the chance to test this in Ubuntu for Windows but I think that it´ll work fine in Linux.
+
 ---------------------------------------------Project Content---------------------------------------------------
 
 The file main.py contains the simple API to call the autocomplete service. It only contains a POST endpoint that returns
