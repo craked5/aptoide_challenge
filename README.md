@@ -15,5 +15,6 @@ the findings for the prefix that we send in.
 This is a simple Flask server running locally on port 8080.
 
 The file search.py is where we have the search logic and also where we have our Trie to store our titles.
+This is currently using the 6500 title test file that you provided.
 
 The file test_search.py represents six unit tests that cover what I think is most of the search and storing logic.
