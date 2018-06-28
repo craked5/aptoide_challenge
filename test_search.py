@@ -26,10 +26,6 @@ class SearchTests(unittest.TestCase):
     def test_non_existing(self):
         self.assertEqual(self.trie.autocomplete_start("dawfsegsrda"), None)
 
-    def test_get_request(self):
-        res = requests.get("http://localhost:8080/autocomplete", timeout=2)
-        self.assertEqual(res.status_code, 405)
-
     def test_input_int(self):
         self.assertRaises(TypeError, self.trie.autocomplete_start, 444)
 

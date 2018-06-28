@@ -26,5 +26,5 @@ class AutocompleteSearch:
                     return None
                 node = node.children[char]
             return list(node.search(prefix))
-        except TypeError:
-            print "Bad char, check the input."
+        except TypeError as e:
+            raise TypeError("Bad char, check the input.", e)
